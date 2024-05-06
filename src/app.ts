@@ -36,10 +36,7 @@ app.set("trust proxy", 1);
 
 // security middlewares
 app.use(
-  cors({
-    origin: ["http://localhost:3000", "https://connectversemain.netlify.app/",
-    "http://localhost:3001"],
-  })
+  cors()
 );
 app.use(mongoSanitize());
 // todo fix this
