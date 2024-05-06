@@ -1,0 +1,22 @@
+{
+
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "esModuleInterop": true,
+    "baseUrl": "./",
+    "paths" :{
+      "@python/*": ["src/python/*"],
+      "@controllers/*": ["src/controllers/*"],
+      "@models/*": ["src/models/*"],
+      "@routes/*": ["src/routes/*"],
+      "@utils/*": ["src/utils/*"],
+    }
+  },
+  "include": ["src/**/*.ts", "TODO.TS"],
+  "exclude": ["node_modules"]
+  
+}

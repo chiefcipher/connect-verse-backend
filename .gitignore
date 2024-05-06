@@ -1,0 +1,15 @@
+
+# dependencies
+./node_modules
+
+# folders 
+dist/
+
+
+#  env files
+.env
+
+# typescript
+*.tsbuildinfo
+node_modules
+.vercel

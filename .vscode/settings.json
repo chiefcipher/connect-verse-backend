@@ -1,0 +1,4 @@
+{
+  "appService.defaultWebAppToDeploy": "/subscriptions/f04e3f5c-e5a7-4f82-86c9-6bd12350b470/resourceGroups/axcenna/providers/Microsoft.Web/sites/integration-axcenna",
+  "appService.deploySubpath": "."
+}
